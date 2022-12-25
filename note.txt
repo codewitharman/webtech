@@ -1,0 +1,61 @@
+****TWO WAYS TO CONNECT JS WITH HTML****
+1)Internal Method 
+<script>console.log("Hello World");
+    alert("Hello");</script>
+
+2)External method
+ <script src="./app.js"></script> 
+
+
+
+ ****WAYS TO GIV INPUT IN JS****
+ 1)for writing isnide console
+console.log("I am console");
+
+2)//for dispalying output on page
+document.write("I will display on web page");
+
+3) for popup window with OK buton
+alert("I will popup with OK");
+
+4)for anothe rpopup with OK and Cencel button
+confirm("Another popup with Ok and cancel");
+
+5)to take user input 
+prompt("Enter value");
+
+
+
+****DATATYPE IN JS****
+1)primitive and 2)non-primitive
+
+1)PRIMITIVE
+-String
+-number
+-boolean
+-null
+-undefined
+
+2)NON-PRIMITIVE
+-Object 
+-String
+
+
+
+to write anything on new line we will use conacatenation with </br> tag
+
+HOW TO CREATE AN OBJECT IN JS AND PRINT TH OUTPUT??????
+var car={
+    brand:"Toyota",
+    name:"Fortuner",
+    price:450000,
+    color:"Matt Black",
+
+
+};
+document.writeln("My car brand is:- " + car.brand+"</br>");
+document.writeln("My car name is:- " + car.name+"</br>");
+document.writeln("My car price is:- " + car.price+"</br>");
+document.writeln("My car color is:- " + car.color+"</br>");
+
+
